@@ -35,6 +35,6 @@ setup(
     ],
     packages=find_packages(),
     entry_points={
-        'console_scripts': ['pytml=main:main'],
+        'console_scripts': ['pytml=pytml.main:main'],
     },
 )
