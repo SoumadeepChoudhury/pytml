@@ -1,4 +1,4 @@
-# PyTml
+# PyTWebL
 Brings a faster and efficient way to generate web-development template, includes : html, css, js. 🧠
 
 # Key Features
@@ -6,10 +6,10 @@ Brings a faster and efficient way to generate web-development template, includes
 - Have exclusive features of adding tags of html to generat ethe boiler plate template.
 
 # Installation
-- Run `pip install pytml`
-- Check [HomePage](https://github.com/SoumadeepChoudhury/pytml) for more details.
+- Run `pip install pytwebl`
+- Check [HomePage](https://github.com/SoumadeepChoudhury/pytwebl) for more details.
 # Usage
-- In command line, run `pytml` to start the engine.
+- In command line, run `pytwebl` to start the engine.
 - Follow the on-screen commands.
 
 # Additional Options

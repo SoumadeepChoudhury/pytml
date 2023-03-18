@@ -2,7 +2,7 @@ import pathlib
 from setuptools import setup, find_packages
 
 
-NAME = 'pytml'
+NAME = 'pytwebl'
 # The directory containing this file
 HERE = pathlib.Path(__file__).parent
 
@@ -17,7 +17,7 @@ setup(
     description="Creates template for web-development from shell, includes : html, css and js.",
     long_description=LONG_DESC,
     long_description_content_type='text/markdown',
-    url="https://github.com/SoumadeepChoudhury/pytml",
+    url="https://github.com/SoumadeepChoudhury/pytwebl",
     author="Ahens | An Initiative to Initial (Soumadeep Choudhury)",
     author_email="ahensinitiative@gmail.com",
     maintainer="Manmay Chakraborty",
@@ -35,6 +35,6 @@ setup(
     ],
     packages=find_packages(),
     entry_points={
-        'console_scripts': ['pytml=pytml.main:main'],
+        'console_scripts': ['pytwebl=pytwebl.main:main'],
     },
 )
