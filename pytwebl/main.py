@@ -102,7 +102,7 @@ def main():
         return
     if platform.system() == "Windows" and len(sys.argv) == 1:
         disableColours()
-    elif (platform.system() == "Windows" and sys.argv()[1] == "--enable-colours") or (len(sys.argv) > 1 and sys.argv[1] == "--enable-colours"):
+    elif (platform.system() == "Windows" and sys.argv[1] == "--enable-colours") or (len(sys.argv) > 1 and sys.argv[1] == "--enable-colours"):
         pass
     elif (len(sys.argv) > 1 and sys.argv[1] == "--disable-colours"):
         disableColours()
