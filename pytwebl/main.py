@@ -1,4 +1,5 @@
-from . import COLORS
+# from . import COLORS
+import COLORS
 
 LOREM = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nobis doloremque exercitationem eveniet nesciunt at. Voluptates provident vero amet vel oue deleniti quia explicabo?'
 
@@ -112,6 +113,15 @@ def main():
 
     try:
         import os
+        print(f"""{COLORS.GREEN}
+    ____       _______       __     __    __ 
+   / __ \__  _/_  __/ |     / /__  / /_  / / 
+  / /_/ / / / // /  | | /| / / _ \/ __ \/ /  
+ / ____/ /_/ // /   | |/ |/ /  __/ /_/ / /___
+/_/    \__, //_/    |__/|__/\___/_.___/_____/
+      /____/                                 
+{COLORS.RESET}""")
+
         dir = "./"+input(
             f"{COLORS.BLUE}[*]{COLORS.RESET} {COLORS.CYAN}ENTER THE DIRECTORY NAME : {COLORS.RESET}").strip()
         if not os.path.exists(dir):

@@ -9,7 +9,7 @@ HERE = pathlib.Path(__file__).parent
 # The text of the README file
 LONG_DESC = (HERE / "README.md").read_text()
 
-VERSION = '1.0.0'
+VERSION = '1.0.1'
 
 setup(
     name=NAME,
@@ -28,7 +28,7 @@ setup(
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.11",
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
