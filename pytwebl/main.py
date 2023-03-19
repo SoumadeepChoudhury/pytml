@@ -1,5 +1,4 @@
-# from . import COLORS
-import COLORS
+from . import COLORS
 
 LOREM = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nobis doloremque exercitationem eveniet nesciunt at. Voluptates provident vero amet vel oue deleniti quia explicabo?'
 

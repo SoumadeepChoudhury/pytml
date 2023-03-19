@@ -9,7 +9,7 @@ HERE = pathlib.Path(__file__).parent
 # The text of the README file
 LONG_DESC = (HERE / "README.md").read_text()
 
-VERSION = '1.0.1'
+VERSION = '1.0.2'
 
 setup(
     name=NAME,
